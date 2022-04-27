@@ -1,0 +1,236 @@
+:root {
+    --primary-color: #45a88e;
+    --primary-color-darker: rgb(9, 48, 56);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ 
+ body{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: auto;
+    width: 50%;
+    padding: 10px 0;
+    text-align: justify;
+    
+}
+.foto {
+    text-align: center;
+}
+
+.profissão {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    color: #293651;
+}
+.information {
+    text-decoration: none;
+    background-color: #45a88e; 
+    width: 150px;  
+    box-shadow: 3px 3px 3px 2px rgb(0, 0, 0, .2); 
+    font-size: 0.9; 
+    color: white; 
+    border-radius: 5px 5px 5px 5px; 
+    padding: 0.7rem 1.5rem;
+}
+
+.information:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: #72c5af;
+}
+
+.header {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 35rem;
+}
+.lorem {
+    font-size: 1.3rem;
+}
+input {
+
+    outline: none;
+    accent-color: var(--primary-color);
+    width: 35rem;
+}
+.vol p {
+    font-size: 1.5rem;
+}
+.section {
+    margin-top: 6rem;
+    justify-content: center;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: auto;
+}
+.sub-section {
+    margin: auto;
+    width: 70rem;
+    height: 70rem;
+
+}
+.sub-section p {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 2.2rem;
+}
+
+.mini-section{
+    line-height: 2.5rem;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: 2rem;
+    margin-bottom:  2rem;
+    width: 45%;
+    height: 30rem;
+    background-color: white;
+    box-shadow: 2px 2px 10px 1px rgba(121, 114, 114, 0.7 );
+}
+
+
+.mini-section p {
+    margin-left: 1.5rem;
+    text-align: left;
+    margin-left: 1.5;
+    font-size: 1.5rem;
+
+}
+.img {
+    border-radius: 2rem 2rem 0px  2rem;
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    position: relative;
+    width: 6rem;
+    height: 6rem;
+    
+}
+.img img {
+    margin-top: 1rem;
+    width: 4rem;
+    height: 4rem;
+}
+.pai-contatos {
+    background-color: #F8F8F8;
+    margin-top: 1rem;
+    display: flex;
+    background: center / cover no-repeat url('/img/mapamundo.png');
+    background-size: 75rem 80rem;
+    height: 30rem;
+    
+}
+.filho-contatos {
+    margin: 2rem auto;
+    position: relative;
+    background-color: #00b798;
+    width: 70rem;
+    height: 20rem;
+    color: white;
+    border-radius: 1rem 1rem 1rem;
+    margin-top: 5rem;
+}
+
+.cont{
+    z-index: 1;
+    font-size: 10rem;
+}
+.custom-shape-divider-top-1650292719 {
+    border-radius: 2rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1650292719 svg {
+    border-radius: 1rem;
+    position: relative;
+    display: block;
+    width: calc(100%);
+    height: 12rem;
+}
+
+.custom-shape-divider-top-1650292719 .shape-fill {
+    fill: #00AF8D;
+}
+
+.contacts {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    width: 20rem;
+    height: 12rem;
+    position: absolute;
+
+    z-index: 1;
+
+}
+.contacts, h3, p {   
+    line-height: 2rem;
+}
+.contacts h3 {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.fimSite {
+    display: flex;
+    background-color: #F8F8F8;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 40rem;
+}
+.icons {
+    margin: auto;
+    width: 25rem;
+    height: 5rem;
+    line-height: 5rem;
+}
+.icons>img {
+    float: right;
+    margin-right: 1.7rem;
+}
+.subFim {
+    color: var(--primary-color-darker);
+    text-align: center;
+    margin: 15rem auto;
+    width: 70rem;
+    height: 20rem;
+}
+.subFim h2 {
+    
+    font-weight: bolder;
+    width: 40rem;
+    margin: 0.5rem auto;
+    font-size: 3rem;
+    height: 5rem;
+    line-height: 5rem;
+    
+}
+.ifons {
+    margin: 1rem auto;
+    width: 40rem;
+    height: 5rem;
+}
+
+.ifons p {
+    margin: auto 0.5rem;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 7rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+
